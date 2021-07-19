@@ -1,0 +1,33 @@
+.header__logo {
+  display: block;
+  margin-right: 93px;
+  padding-top: 24px;
+  padding-bottom: 25px;
+
+  font-family: var(--secondary-font);
+  color: var(--logo-footer-color);
+
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+
+  transition: color 250ms var(--timing-function);
+}
+
+.logo-accent {
+  color: var(--accent-color);
+}
+
+.footer__logo {
+  display: inline-block;
+  margin-bottom: 20px;
+
+  font-family: var(--secondary-font);
+  color: var(--hero-text-color);
+
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+
+  transition: color 250ms var(--timing-function);
+}
