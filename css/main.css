@@ -44,31 +44,29 @@
   --m0dal-input-border: rgba(33, 33, 33, 0.2);
 }
 
-.header__logo {
-  display: block;
-  margin-right: 93px;
-  padding-top: 24px;
-  padding-bottom: 25px;
+.logo__footer, .logo__header, .logo__accent {
+  display: inline-block;
   font-family: var(--secondary-font);
-  color: var(--logo-footer-color);
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
   transition: color 250ms var(--timing-function);
 }
 
-.logo-accent {
+.logo__accent {
   color: var(--accent-color);
 }
 
-.footer__logo {
+.logo__header {
+  margin-right: 93px;
+  padding-top: 24px;
+  padding-bottom: 25px;
+  color: var(--logo-footer-color);
+}
+
+.logo__footer {
   margin-bottom: 20px;
-  font-family: var(--secondary-font);
   color: var(--hero-text-color);
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.19;
-  transition: color 250ms var(--timing-function);
 }
 
 .subtitle {
