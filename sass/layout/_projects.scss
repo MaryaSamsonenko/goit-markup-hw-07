@@ -15,7 +15,18 @@
   box-shadow: var(--projects-focus-shadow);
 }
 
-.projects-title {
+.card {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 24px;
+  padding-right: 24px;
+
+  border-right: 1px solid var(--progects-card-border);
+  border-bottom: 1px solid var(--progects-card-border);
+  border-left: 1px solid var(--progects-card-border);
+}
+
+.card__title {
   margin-bottom: 4px;
 
   color: var(--title-text-color);
@@ -26,29 +37,19 @@
   letter-spacing: 0.06em;
 }
 
-.projects-desc {
+.card__desc {
   color: var(--primary-text-color);
 
   font-size: 16px;
   line-height: 1.87;
 }
 
-.card-link {
-  padding-top: 20px;
-  padding-bottom: 20px;
-  padding-left: 24px;
-  padding-right: 24px;
-
-  border-right: 1px solid var(--progects-card-border);
-  border-bottom: 1px solid var(--progects-card-border);
-  border-left: 1px solid var(--progects-card-border);
-}
 .projects-overlay {
   position: relative;
   overflow: hidden;
 }
 
-.projects-overlay-text {
+.projects-overlay__text {
   position: absolute;
   display: block;
   top: 100%;
@@ -70,7 +71,7 @@
   letter-spacing: 0.03em;
 }
 
-.projects__link:hover .projects-overlay-text,
-.projects__link:focus .projects-overlay-text {
+.projects__link:hover .projects-overlay__text,
+.projects__link:focus .projects-overlay__text {
   transform: translateY(-100%);
 }

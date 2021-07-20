@@ -381,12 +381,12 @@ img {
   border-bottom: 1px solid var(--header-border-color);
 }
 
-.header-line {
+.header__line {
   display: flex;
   align-items: center;
 }
 
-.header-nav {
+.header__nav {
   display: flex;
   align-items: center;
 }
@@ -556,7 +556,7 @@ img {
   background-color: var(--hero-text-color);
 }
 
-.team-name {
+.team-card__name {
   margin-bottom: 10px;
   color: var(--title-text-color);
   font-weight: 500;
@@ -564,7 +564,7 @@ img {
   line-height: 1.18;
 }
 
-.team-profession {
+.team-card__profession {
   font-size: 16px;
   line-height: 1.18;
   margin-bottom: 10px;
@@ -756,22 +756,7 @@ img {
   box-shadow: var(--projects-focus-shadow);
 }
 
-.projects-title {
-  margin-bottom: 4px;
-  color: var(--title-text-color);
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 2;
-  letter-spacing: 0.06em;
-}
-
-.projects-desc {
-  color: var(--primary-text-color);
-  font-size: 16px;
-  line-height: 1.87;
-}
-
-.card-link {
+.card {
   padding-top: 20px;
   padding-bottom: 20px;
   padding-left: 24px;
@@ -781,12 +766,27 @@ img {
   border-left: 1px solid var(--progects-card-border);
 }
 
+.card__title {
+  margin-bottom: 4px;
+  color: var(--title-text-color);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+
+.card__desc {
+  color: var(--primary-text-color);
+  font-size: 16px;
+  line-height: 1.87;
+}
+
 .projects-overlay {
   position: relative;
   overflow: hidden;
 }
 
-.projects-overlay-text {
+.projects-overlay__text {
   position: absolute;
   display: block;
   top: 100%;
@@ -805,7 +805,7 @@ img {
   letter-spacing: 0.03em;
 }
 
-.projects__link:hover .projects-overlay-text,
-.projects__link:focus .projects-overlay-text {
+.projects__link:hover .projects-overlay__text,
+.projects__link:focus .projects-overlay__text {
   transform: translateY(-100%);
 }/*# sourceMappingURL=main.css.map */
