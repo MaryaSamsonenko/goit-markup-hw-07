@@ -16,12 +16,11 @@
   fill: var(--clients-border-color);
 
   transition: fill 250ms var(--timing-function), background-color 250ms var(--timing-function);
-}
-
-.social__link:hover,
-.social__link:focus {
-  background-color: var(--accent-color);
-  fill: var(--hero-text-color);
+  &:hover,
+  &:focus {
+    background-color: var(--accent-color);
+    fill: var(--hero-text-color);
+  }
 }
 
 .social__item:not(:last-child) {
@@ -37,9 +36,8 @@
   background-color: var(--footer-sosial-background-color);
 
   transition: background-color 250ms var(--timing-function);
-}
-
-.social__link--white:hover,
-.social__link--white:focus {
-  background-color: var(--accent-color);
+  &:hover,
+  &:focus {
+    background-color: var(--accent-color);
+  }
 }

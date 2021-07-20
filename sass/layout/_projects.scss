@@ -12,6 +12,10 @@
   &:focus {
     box-shadow: var(--projects-focus-shadow);
   }
+  &:hover .projects-overlay__text,
+  &:focus .projects-overlay__text {
+    transform: translateY(-100%);
+  }
 }
 
 .card {
@@ -68,9 +72,4 @@
     line-height: 1.56;
     letter-spacing: 0.03em;
   }
-}
-
-.projects__link:hover .projects-overlay__text,
-.projects__link:focus .projects-overlay__text {
-  transform: translateY(-100%);
 }

@@ -380,7 +380,7 @@
     <!-- ========Footer======== -->
 
     <footer class="footer">
-      <div class="footer-line container">
+      <div class="footer__line container">
         <div class="">
           <a lang="en" class="footer__logo link" href="/"
             ><span class="logo-accent">Web</span>Studio</a
@@ -433,9 +433,9 @@
 
         <div class="footer__signup">
           <h3 class="page__title social__title--white">Подпишитесь на рассылку</h3>
-          <form class="form__singup" name="form-singup" autocomplete="on">
-            <label class="form__lable">
-              <input class="form__input" type="email" name="email" placeholder="E-mail" />
+          <form class="footer-form" name="form-singup" autocomplete="on">
+            <label class="footer-form__lable">
+              <input class="footer-form__input" type="email" name="email" placeholder="E-mail" />
             </label>
             <button class="button__footer button" type="submit">
               Подписаться
@@ -457,48 +457,48 @@
             <use href="./images/sprite.svg#icon-close"></use>
           </svg>
         </button>
-        <form class="modal-form">
-          <p class="modal-title">Оставьте свои данные, мы вам перезвоним</p>
-          <div class="modal-form-field">
-            <label class="modal-lable">
+        <form class="form">
+          <p class="form__title">Оставьте свои данные, мы вам перезвоним</p>
+          <div class="modal-form">
+            <label class="modal-form__lable">
               Имя
-              <input class="modal-input" type="text" name="name" placeholder=" " required />
-              <svg class="modal-input-svg" width="18px" height="18px">
+              <input class="modal-form__input" type="text" name="name" placeholder=" " required />
+              <svg class="modal-form__input--svg" width="18px" height="18px">
                 <use href="./images/sprite.svg#icon-person-modal"></use>
               </svg>
             </label>
           </div>
-          <div class="modal-form-field">
-            <label class="modal-lable">
+          <div class="modal-form">
+            <label class="modal-form__lable">
               Телефон
-              <input class="modal-input" type="number" name="tel" placeholder=" " required />
-              <svg class="modal-input-svg" width="18px" height="18px">
+              <input class="modal-form__input" type="number" name="tel" placeholder=" " required />
+              <svg class="modal-form__input--svg" width="18px" height="18px">
                 <use href="./images/sprite.svg#icon-phone-modal"></use>
               </svg>
             </label>
           </div>
-          <div class="modal-form-field">
-            <label class="modal-lable">
+          <div class="modal-form">
+            <label class="modal-form__lable">
               Почта
-              <input class="modal-input" type="email" name="email" placeholder=" " required />
-              <svg class="modal-input-svg" width="18px" height="18px">
+              <input class="modal-form__input" type="email" name="email" placeholder=" " required />
+              <svg class="modal-form__input--svg" width="18px" height="18px">
                 <use href="./images/sprite.svg#icon-email-modal"></use>
               </svg>
             </label>
           </div>
-          <div class="modal-form-field">
-            <label class="modal-lable modal-lable-textarea">
+          <div class="modal-form">
+            <label class="modal-form__lable modal-form__textarea">
               Комментарий
               <textarea
-                class="modal-comment modal-input"
+                class="modal-form__comment modal-form__input"
                 name="comment"
                 rows="5"
                 placeholder="Введите текст"
               ></textarea>
             </label>
           </div>
-          <div class="modal-form-field">
-            <label class="modal-checkbox">
+          <div class="modal-form">
+            <label class="modal-form__checkbox">
               <input
                 class="checkbox"
                 type="checkbox"
@@ -512,9 +512,9 @@
                 <use href="./images/sprite.svg#icon-vector"></use>
               </svg> -->
 
-              <span class="label-checkbox"
+              <span
                 >Соглашаюсь с рассылкой и принимаю
-                <a class="modal-link" href="">Условия договора</a></span
+                <a class="checkbox__link" href="#">Условия договора</a></span
               >
             </label>
           </div>
