@@ -18,19 +18,14 @@
   transition: fill 250ms var(--timing-function), background-color 250ms var(--timing-function);
 }
 
-.social__item:not(:last-child) {
-  margin-right: 10px;
-}
-
 .social__link:hover,
 .social__link:focus {
   background-color: var(--accent-color);
   fill: var(--hero-text-color);
 }
 
-.social__title--white {
-  color: var(--hero-text-color);
-  margin-bottom: 20px;
+.social__item:not(:last-child) {
+  margin-right: 10px;
 }
 
 .social__item--white {

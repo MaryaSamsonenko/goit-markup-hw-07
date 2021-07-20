@@ -21,13 +21,13 @@
       var(--hero-background-image-color)
     ),
     url('../images/page1/hero.jpg');
-}
 
-.hero__title {
-  margin-bottom: 30px;
+  &__title {
+    margin-bottom: 30px;
 
-  font-weight: 900;
-  font-size: 44px;
-  line-height: 1.36;
-  text-transform: uppercase;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-transform: uppercase;
+  }
 }
