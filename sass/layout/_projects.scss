@@ -1,25 +1,17 @@
-.projects-list {
-  display: flex;
-  flex-wrap: wrap;
-
-  margin-left: -30px;
-  margin-top: -30px;
-}
-
-.projects-item {
+.projects__item {
   flex-basis: calc((100% - 90px) / 3);
   margin-left: 30px;
   margin-top: 30px;
 }
 
-.projects-link {
+.projects__link {
   display: block;
 
   transition: box-shadow 250ms var(--timing-function);
 }
 
-.projects-link:hover,
-.projects-link:focus {
+.projects__link:hover,
+.projects__link:focus {
   box-shadow: var(--projects-focus-shadow);
 }
 
@@ -78,7 +70,7 @@
   letter-spacing: 0.03em;
 }
 
-.projects-link:hover .projects-overlay-text,
-.projects-link:focus .projects-overlay-text {
+.projects__link:hover .projects-overlay-text,
+.projects__link:focus .projects-overlay-text {
   transform: translateY(-100%);
 }
