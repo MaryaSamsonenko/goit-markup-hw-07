@@ -21,13 +21,10 @@
 
     color: var(--title-text-color);
 
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.18;
+    @include font($fw: 500, $fs: 16px, $lh: 19px);
   }
   &__profession {
-    font-size: 16px;
-    line-height: 1.18;
+    @include font($fs: 16px, $lh: 19px);
 
     margin-bottom: 10px;
   }

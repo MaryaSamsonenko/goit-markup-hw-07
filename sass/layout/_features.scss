@@ -23,6 +23,5 @@
 }
 
 .features__desc {
-  font-size: 14px;
-  line-height: 1.71;
+  @include font($fs: 14px, $lh: 24px);
 }

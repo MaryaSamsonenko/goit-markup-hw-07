@@ -3,9 +3,7 @@
 
   font-family: var(--secondary-font);
 
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.19;
+  @include font($fw: 700, $fs: 26px, $lh: 31px);
 
   transition: color 250ms var(--timing-function);
 }

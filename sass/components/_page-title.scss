@@ -1,6 +1,5 @@
 .page__title {
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 1.14;
+  @include font($fw: 700, $fs: 14px, $lh: 16px);
+
   text-transform: uppercase;
 }

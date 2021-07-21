@@ -4,7 +4,5 @@
 
   color: var(--title-text-color);
 
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.16;
+  @include font($fw: 700, $fs: 36px, $lh: 42px);
 }

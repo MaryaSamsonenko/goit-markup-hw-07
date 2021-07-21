@@ -13,11 +13,8 @@
   margin-bottom: 9px;
 
   color: var(--hero-text-color);
-
   font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 1.71;
+  @include font($fw: 400, $fs: 14px, $lh: 24px);
 }
 
 .footer-contact__link {

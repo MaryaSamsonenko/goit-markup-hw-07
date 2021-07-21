@@ -20,10 +20,7 @@
 
     color: var(--title-text-color);
 
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.62;
+    @include font($fw: 500, $fs: 16px, $lh: 26px);
 
     transition: color 250ms var(--timing-function), box-shadow 250ms var(--timing-function),
       background-color 250ms var(--timing-function);
